@@ -1,0 +1,89 @@
+/* Gaya umum untuk seluruh halaman */
+body {
+    font-family: 'Arial', sans-serif; /* Mengatur jenis huruf */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #1A00FF; /* Warna latar belakang */
+    color: #000; /* Warna teks */
+}
+
+/* Wadah utama untuk konten */
+main {
+    max-width: 800px;
+    margin: 20px auto; /* Membuat konten di tengah */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Efek bayangan */
+    border-radius: 8px; /* Sudut melengkung */
+}
+
+/* Gaya untuk bagian header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Gaya untuk setiap bagian (section) */
+section {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee; /* Garis pemisah antar bagian */
+}
+
+/* Gaya khusus untuk foto profil */
+.foto-profil {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+    margin: 0 auto 20px; /* Posisi di tengah */
+    object-fit: cover; /* Memastikan gambar tidak gepeng */
+}
+
+h2 {
+    color: #333;
+}
+
+/* Gaya untuk daftar keahlian */
+ul {
+    list-style: none; /* Menghilangkan bulatan pada daftar */
+    padding: 0;
+}
+
+ul li {
+    background-color: #e7e7e7;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+/* Gaya untuk tombol kontak */
+.tombol-kontak {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none; /* Menghilangkan garis bawah tautan */
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s; /* Efek transisi halus */
+}
+
+.tombol-kontak:hover {
+    background-color: #0056b3; /* Warna saat kursor di atas tombol */
+}
+
+/* Gaya untuk bagian footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    color: #777;
+}
